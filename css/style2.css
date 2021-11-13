@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+body{
+    width: 90%;
+    padding: 50px 50px;
+    margin: 50px;
+    background: rgb(255, 255, 255) !important;
+}
+
+.main-container{
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 57%;
+    left: 50px;
+
+}
+
+
+
+.place-name h1{
+    font-size: 2em;
+    padding: 20px 10px;
+    text-align: center;
+    background-color: #FF4242;
+    border-radius: 6px;
+    color: white;
+    /* font-family: 'Roboto', sans-serif; */
+    font-weight: bold;
+    letter-spacing: 3px;
+    
+}
+.place-name p{
+    padding: 0;
+    margin: 0;
+    padding: 15px 20px;
+    margin: 25px;
+    /* font-family: 'Roboto', sans-serif; */
+}
+.list-form{
+    padding: 20px 40px;
+}
+.list-form h4{
+
+    position: relative;
+    text-align: left;
+    padding: 2px;
+    font-size: 20px;
+    font-weight:900;
+    bottom: 20px;
+}
+
+.list-form .form-control{
+    width: 45%;
+    position: relative;
+}
+.list-form .form-select{
+    width: 45%;
+    position: relative;
+}
+
+.fname{
+    left: 50%;
+    bottom: 61.5px;
+}
+.fnames{
+    position: relative;
+    left: 50%;
+    bottom: 61px;
+}
+.mname{
+    position: relative;
+    bottom: 45px;
+}
+.mnames{
+    position: relative;
+    bottom: 45px;
+}
+.numfam{
+    position: relative;
+    left: 50%;
+    bottom: 106.5px;
+}
+.numfams{
+    position: relative;
+    left: 50%;
+    bottom: 106px;
+}
+.address{
+    position: relative;
+    bottom: 130px;
+}
+.add-name{
+    position: relative;
+    bottom: 130px;
+}
+.brgy{
+    position: relative;
+    left: 50%;
+    bottom: 190.5px;
+  
+}
+.brgys{
+    position: relative;
+    left: 50%;
+    bottom: 190px;
+  
+}
+.contact{
+    position: relative;
+   bottom: 90px;
+  
+}
+.cntc{
+    position: relative;
+   bottom: 90px;
+}
+.email{
+    position: relative;
+    left: 50%;
+   bottom: 151.5px;
+}
+.emails{
+    position: relative;
+    left: 50%;
+     bottom: 151px;
+}
+.date{
+    position: relative;
+    bottom: 170px;
+}
+.dates{
+    position: relative;
+    bottom: 170px;
+}
+.checkbox{
+    position: relative;
+    top: -80px;
+    width: 100%;
+    
+}
+.can{
+    position: relative;
+    width: 20%;
+    letter-spacing: 3px;
+}
+.noodle{
+    position: relative;
+    left: 25%;
+    bottom: 37.6px;
+    width: 20%;
+    letter-spacing: 3px;
+}
+.drinks{
+    position: relative;
+    left: 50%;
+    bottom: 75.6px;
+    width: 20%;
+    letter-spacing: 3px;
+}
+.rice{
+    position: relative;
+    left: 75%;
+    bottom: 114.6px;
+    width: 20%;
+    letter-spacing: 3px;
+}
+.babypud{
+    position: relative;
+    width: 20%;
+    letter-spacing: 3px;
+    bottom: 77.6px;
+}
+.snacks{
+    position: relative;
+    left: 25%;
+    bottom: 114.6px;
+    width: 20%;
+    letter-spacing: 3px;
+}
+.household{
+    position: relative;
+    left: 50%;
+    bottom: 152.6px;
+    width: 20%;
+    letter-spacing: 3px;
+}
+.snacks{
+    position: relative;
+    left: 25%;
+    bottom: 114.6px;
+    width: 20%;
+    letter-spacing: 3px;
+}
+.hygiene{
+    position: relative;
+    left: 75%;
+    bottom: 191.6px;
+    width: 20%;
+    letter-spacing: 2px;
+    float: left;
+}
+.list-form button{
+    background-color: #47ABD8;
+    color: white;
+    width: 35%;
+    position: relative;
+    bottom: 120px;
+    border-radius: 10px;
+    border: none;
+}
+
+.list-form button{
+    background-color: #FF4242;
+    color: white;
+    width: 35%;
+    position: relative;
+    bottom: 120px;
+    border-radius: 10px;
+    border: none;
+    right: 80px;
+}
+.list-form button:hover{
+   background-color:  #D01B1B;
+   color: white;
+}
+
+.buttons{
+    letter-spacing: 3px;
+}
