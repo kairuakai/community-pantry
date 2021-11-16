@@ -87,7 +87,7 @@
 <!--footer-->
 <section class="footer">
     <h4>About Us</h4>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore. <br>Et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud</p>
+    <p>We are the comtry volunteer, and we are here to help the people who are short on food.<br>By using this system it will collect the food or item to those who want to give.</p>
     <div class="icons">
         <a href="https://www.facebook.com/Comtry-106703901831102"><i class="fa fa-facebook"></i></a>
         <a href="https://twitter.com/ComtryV"><i class="fa fa-twitter"></i></a>

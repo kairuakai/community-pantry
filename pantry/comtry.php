@@ -21,7 +21,7 @@
 <body>
 	<section class="header">
 		<nav>
-            <a href="comtry.php"><img src="../img/sanjuan logo-transparent.png" alt="san juan logo" class="sanjuan"></a>
+            <!-- <a href="comtry.php"><img src="../img/sanjuan logo-transparent.png" alt="san juan logo" class="sanjuan"></a> -->
 			<a href="comtry.php"><img src="./comtryimg/logomain.png"></a>
 			<div class="nav-links" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
@@ -50,11 +50,13 @@
 		</nav>
 
         <div class="text-box">
-                <h1>Community Pantry for the Barangays of San Juan</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        <img src="../img/sanjuan logo-transparent.png" alt="san juan logo" class="sanjuan">
+                <h1>Community Pantry for the Barangays of <br>San Juan</h1>
+                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore. Et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud <br> exercitation ullamco laboris. Isi ut aliquip ex ea commodo
-					consequat.</p>
+					consequat.</p> -->
+                    <br>
                 <a href="#SorR" class="button">Click this to visit the forms</a>
             </div>
 
@@ -105,7 +107,7 @@
 <!--footer-->
 <section class="footer">
     <h4>About Us</h4>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore. <br>Et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud</p>
+    <p>We are the comtry volunteer, and we are here to help the people who are short on food.<br>By using this system it will collect the food or item to those who want to give.</p>
     <div class="icons">
         <a href="https://www.facebook.com/Comtry-106703901831102" target="_blank"><i class="fa fa-facebook"></i></a>
         <a href="https://twitter.com/ComtryV" target="_blank"><i class="fa fa-twitter"></i></a>
