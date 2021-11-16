@@ -64,6 +64,11 @@ nav .fa{
     display: none;
 }
 
+.sanjuan{
+    height: 50%;
+    width: 130%;
+}
+
 .text-box{
     width: 90%;
     color: white;
@@ -202,7 +207,7 @@ p{
 .form-col{
     flex-basis: 45%;
     flex-flow: wrap;
-    background: #adddf3;
+    background: #8ED2F0;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
