@@ -4,6 +4,7 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>COMTRY | VOLUNTEERS</title>
+    <link rel="shortcut icon" href="../img/Ellipse2.png">
 	<link rel="stylesheet" href="./comtrycss/style.css">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">

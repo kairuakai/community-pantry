@@ -4,6 +4,7 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>COMTRY | VOLUNTEERS</title>
+    <link rel="shortcut icon" href="../img/Ellipse2.png">
 	<link rel="stylesheet" href="./comtrycss/style.css">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -50,7 +51,7 @@
 		</nav>
 
         <div class="text-box">
-        <img src="../img/sanjuan logo-transparent.png" alt="san juan logo" class="sanjuan">
+        <img src="../img/san.png" alt="san juan logo" class="sanjuan">
                 <h1>Community Pantry for the Barangays of <br>San Juan</h1>
                 <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore. Et dolore magna aliqua. Ut enim ad minim veniam,

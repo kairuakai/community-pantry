@@ -4,6 +4,7 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>COMTRY | VOLUNTEERS</title>
+    <link rel="shortcut icon" href="../img/Ellipse2.png">
 	<link rel="stylesheet" href="./comtrycss/style.css">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -50,15 +51,15 @@
     <section id="faq">
         <div class="container">
            <div id="qunan">
-					<p class="question"><strong>Q.</strong><small>Questioons blabla</small></p>
-                    <p class="answer"><strong>A.</strong><small>Answer</small></p>
+					<p class="question"><strong>Q.</strong><small>Saang lugar kayo matatagpuan para maidonate ang pagkain/gamit.</small></p>
+                    <p class="answer"><strong>A.</strong><small>Pinaglabanan Street, cor Dr.P.A.Narciso, Street</small></p>
                
-                    <p class="question"><strong>Q.</strong><small>Questioons blabla</small></p>
-                    <p class="answer"><strong>A.</strong><small>Answer</small></p>
+                    <p class="question"><strong>Q.</strong><small>Ilang pirasong pagkain/gamit ang aming matatanggapp sainyong proyekto. </small></p>
+                    <p class="answer"><strong>A.</strong><small>Depende sa aming malilikom, dahil dumidipende kami sa mga nagbibigay.</small></p>
                
-                    <p class="question"><strong>Q.</strong><small>Questioons blabla</small></p>
-                    <p class="answer"><strong>A.</strong><small>Answer</small></p>
-               
+                    <p class="question"><strong>Q.</strong><small>Saan kami magsasagot ng form sainyong website</small></p>
+                    <p class="answer"><strong>A.</strong><small>Pumunta lang po kayo sa aming home page at meron kayong makikita na button sa gitna , pindutin nyo lamang ito at kapag napindot niyo na ito may pagpipilian lamang kayo kung kayo ba ay magbibigay o kukuha.</small></p>
+            
                     <p class="question"><strong>Q.</strong><small>Questioons blabla</small></p>
                     <p class="answer"><strong>A.</strong><small>Answer</small></p>
                
