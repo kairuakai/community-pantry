@@ -58,7 +58,7 @@
    
         <div class="main-container border-start shadow mb-5 bg-white rounded">
             <section class="place-name">
-                <h1> <img src="img/sanjuan logo copy.png" alt=""> Community Pantry in San Juan</h1>
+                <h1> <img src="img/sanjuan logo copy.png" alt=""> Community Pantry in San Juan City</h1>
                 <p><strong>PAALALA:</strong> MAGBIGAY AYON SA KAKAYAHAN.KUMUHA BATAY SA PANGANGAILANANGAN. </p>
             </section>
 

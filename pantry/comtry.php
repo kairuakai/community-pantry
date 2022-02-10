@@ -52,7 +52,7 @@
 
         <div class="text-box">
         <img src="../img/san.png" alt="san juan logo" class="sanjuan">
-                <h1>Community Pantry for the Barangays of <br>San Juan</h1>
+                <h1>Community Pantry for the Barangays of <br>San Juan City</h1>
                 <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore. Et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud <br> exercitation ullamco laboris. Isi ut aliquip ex ea commodo

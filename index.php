@@ -56,7 +56,7 @@
    
         <div class="main-container border-start shadow mb-5 bg-white rounded">
             <section class="place-name">
-                <h1> <img src="img/sanjuan logo.png" alt=""> Community Pantry in San Juan</h1>
+                <h1> <img src="img/sanjuan logo.png" alt=""> Community Pantry in San Juan City</h1>
                 <p><strong>PAALALA:</strong> KUMUHA AYON SA PANGANGAILANANGAN. MAGBIGAY AYON SA KAKAYAHAN.</p>
             </section>
 
@@ -122,28 +122,28 @@
                     
                      <div class="checkbox">
                         <h4><i class="bi bi-bookmark-fill"></i> Choose you want to recieve </h4>
-                     <input type="checkbox" class="btn-check can" id="btn-check-outlined" name="can" value="recieve">
+                     <input type="checkbox" class="btn-check can" id="btn-check-outlined" name="can" value="R-can">
                      <label class="btn btn-outline-primary can" for="btn-check-outlined">Can Goods</label>
                         <br>
-                     <input type="checkbox" class="btn-check noodle" id="btn-check-outlined1" name="noodles" value="recieve">
+                     <input type="checkbox" class="btn-check noodle" id="btn-check-outlined1" name="noodles" value="R-noodles">
                      <label class="btn btn-outline-primary noodle" for="btn-check-outlined1">Noodles</label>
                      <br>
-                     <input type="checkbox" class="btn-check drinks" id="btn-check-outlined2" name="drinks" value="recieve">
+                     <input type="checkbox" class="btn-check drinks" id="btn-check-outlined2" name="drinks" value="R-drinks">
                      <label class="btn btn-outline-primary drinks" for="btn-check-outlined2">Drinks</label>
                         <br>
-                    <input type="checkbox" class="btn-check rice" id="btn-check-outlined3" name="rice" value="recieve">
+                    <input type="checkbox" class="btn-check rice" id="btn-check-outlined3" name="rice" value="R-rice">
                     <label class="btn btn-outline-primary rice" for="btn-check-outlined3">Rice</label>
                         <br>   
-                    <input type="checkbox" class="btn-check babypud" id="btn-check-outlined4" name="babyfood" value="recieve">
+                    <input type="checkbox" class="btn-check babypud" id="btn-check-outlined4" name="babyfood" value="R-bfoods">
                     <label class="btn btn-outline-primary babypud" for="btn-check-outlined4">Baby Foods</label>
                         <br>   
-                    <input type="checkbox" class="btn-check snacks" id="btn-check-outlined5" name="snacks" value="recieve">
+                    <input type="checkbox" class="btn-check snacks" id="btn-check-outlined5" name="snacks" value="R-snacks">
                     <label class="btn btn-outline-primary snacks" for="btn-check-outlined5">Snacks</label>
                         <br>   
-                    <input type="checkbox" class="btn-check household" id="btn-check-outlined6"name="household" value="recieve" >
+                    <input type="checkbox" class="btn-check household" id="btn-check-outlined6"name="household" value="R-household" >
                     <label class="btn btn-outline-primary household" for="btn-check-outlined6">Household</label>
                     <br>   
-                    <input type="checkbox" class="btn-check hygiene" id="btn-check-outlined7" name="hygiene" value="recieve">
+                    <input type="checkbox" class="btn-check hygiene" id="btn-check-outlined7" name="hygiene" value="R-hygiene">
                     <label class="btn btn-outline-primary hygiene" for="btn-check-outlined7">Hygiene</label>
                     <br>   
                     </div>
