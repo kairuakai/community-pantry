@@ -69,9 +69,16 @@
                     echo "<td>". $row['householdgoods']. "</td>";
                     echo "<td>". $row['hygiene']. "</td>";
                     echo "<td>". $row['datetime']. "</td>";
-                    echo "<td> <button type ='button' class='btn btn-success'>Approve</button> </td>";
-                    
-                    echo "<td> <button type ='button' class='btn btn-danger'>Reject</button> </td>";
+                    ?>
+
+                    <td>
+                      <form action='receive-rej.php' method='POST'>
+                          <input type="hidden" name="id" value="<?php echo $row['ID']?>">
+                          <input type="submit" name="dlt" class="btn btn-danger" value="Delete">
+                        <!-- <button type ='submit' class='btn btn-danger' name='reject' value='<?php $row['ID']; ?>'>Reject</button>  -->
+                     </form>
+                     </td>
+                    <?php
 
 
                 }

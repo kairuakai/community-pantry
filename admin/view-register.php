@@ -22,6 +22,7 @@
                     <th>ID</th>
                     <th>Username</th>
                     <th>Password</th>
+                    <th>Roles</th>
                  
                 </tr>
 
@@ -38,7 +39,21 @@
                             echo "<td>". $row['ID']. "</td>";
                             echo "<td>". $row['regUser']. "</td>";
                             echo "<td>". $row['regPass']. "</td>";
+                            ?>
+                            <td>
+                                <?php 
+                                       if($row['role'] == 1){
+                                        echo 'Admin';
+                                    }
+                                    elseif($row['role']== 0){
+                                        echo 'User';
+                                    }
+                                ?>
+                            </td>
 
+                           <?php
+                         
+                           
 
                         }
 

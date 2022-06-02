@@ -101,7 +101,7 @@
 
        <!-- Get total request in Can Goods -->
         <?php
-            $sql = "SELECT COUNT(*) AS Total FROM receiver_info WHERE can='R-can'";
+            $sql = "SELECT COUNT(*) AS Total FROM approve_list WHERE can='R-can'";
             $sql_result = mysqli_query($con,$sql);
             while($row = mysqli_fetch_assoc($sql_result)){
                 $output = $row['Total'];
@@ -109,7 +109,7 @@
         ?>
     <!-- Get total request in Noodles -->
         <?php
-            $sql = "SELECT COUNT(*) AS Total FROM receiver_info WHERE noodles='R-noodles'";
+            $sql = "SELECT COUNT(*) AS Total FROM approve_list WHERE noodles='R-noodles'";
             $sql_result = mysqli_query($con,$sql);
             while($row = mysqli_fetch_assoc($sql_result)){
                 $output1 = $row['Total'];
@@ -118,7 +118,7 @@
 
         <!-- Get total request in Drinks -->
         <?php
-            $sql = "SELECT COUNT(*) AS Total FROM receiver_info WHERE drinks='R-drinks'";
+            $sql = "SELECT COUNT(*) AS Total FROM approve_list WHERE drinks='R-drinks'";
             $sql_result = mysqli_query($con,$sql);
             while($row = mysqli_fetch_assoc($sql_result)){
                 $output2 = $row['Total'];
@@ -127,7 +127,7 @@
 
         <!-- Get total request in Rice -->
         <?php
-            $sql = "SELECT COUNT(*) AS Total FROM receiver_info WHERE rice='R-rice'";
+            $sql = "SELECT COUNT(*) AS Total FROM approve_list WHERE rice='R-rice'";
             $sql_result = mysqli_query($con,$sql);
             while($row = mysqli_fetch_assoc($sql_result)){
                 $output3 = $row['Total'];
@@ -136,7 +136,7 @@
 
          <!-- Get total request in Baby Food -->
          <?php
-            $sql = "SELECT COUNT(*) AS Total FROM receiver_info WHERE babyfood='R-bfoods'";
+            $sql = "SELECT COUNT(*) AS Total FROM approve_list WHERE babyfood='R-bfoods'";
             $sql_result = mysqli_query($con,$sql);
             while($row = mysqli_fetch_assoc($sql_result)){
                 $output4 = $row['Total'];
@@ -145,7 +145,7 @@
 
          <!-- Get total request in Baby Snacks -->
          <?php
-            $sql = "SELECT COUNT(*) AS Total FROM receiver_info WHERE snacks='R-snacks'";
+            $sql = "SELECT COUNT(*) AS Total FROM approve_list WHERE snacks='R-snacks'";
             $sql_result = mysqli_query($con,$sql);
             while($row = mysqli_fetch_assoc($sql_result)){
                 $output5 = $row['Total'];
@@ -153,7 +153,7 @@
         ?>
          <!-- Get total request in House Hold Goods -->
          <?php
-            $sql = "SELECT COUNT(*) AS Total FROM receiver_info WHERE householdgoods='R-household'";
+            $sql = "SELECT COUNT(*) AS Total FROM approve_list WHERE householdgoods='R-household'";
             $sql_result = mysqli_query($con,$sql);
             while($row = mysqli_fetch_assoc($sql_result)){
                 $output6 = $row['Total'];
@@ -162,12 +162,91 @@
 
          <!-- Get total request in Hygiene -->
          <?php
-            $sql = "SELECT COUNT(*) AS Total FROM receiver_info WHERE hygiene='R-hygiene'";
+            $sql = "SELECT COUNT(*) AS Total FROM approve_list WHERE hygiene='R-hygiene'";
             $sql_result = mysqli_query($con,$sql);
             while($row = mysqli_fetch_assoc($sql_result)){
                 $output7 = $row['Total'];
             }
         ?>
+
+
+
+
+
+
+
+
+        <!-- Get total send in Can Goods -->
+        <?php
+            $sql = "SELECT COUNT(*) AS Total FROM sender_info WHERE can='S-can'";
+            $sql_result = mysqli_query($con,$sql);
+            while($row = mysqli_fetch_assoc($sql_result)){
+                $sender = $row['Total'];
+            }
+        ?>
+    <!-- Get total send in Noodles -->
+        <?php
+            $sql = "SELECT COUNT(*) AS Total FROM sender_info WHERE noodles='S-noodles'";
+            $sql_result = mysqli_query($con,$sql);
+            while($row = mysqli_fetch_assoc($sql_result)){
+                $sender1 = $row['Total'];
+            }
+        ?>
+
+        <!-- Get total send in Drinks -->
+        <?php
+            $sql = "SELECT COUNT(*) AS Total FROM sender_info WHERE drinks='S-drinks'";
+            $sql_result = mysqli_query($con,$sql);
+            while($row = mysqli_fetch_assoc($sql_result)){
+                $sender2 = $row['Total'];
+            }
+        ?>
+
+        <!-- Get total send in Rice -->
+        <?php
+            $sql = "SELECT COUNT(*) AS Total FROM sender_info WHERE rice='S-rice'";
+            $sql_result = mysqli_query($con,$sql);
+            while($row = mysqli_fetch_assoc($sql_result)){
+                $sender3 = $row['Total'];
+            }
+        ?>
+
+         <!-- Get total send in Baby Food -->
+         <?php
+            $sql = "SELECT COUNT(*) AS Total FROM sender_info WHERE babyfood='S-bfoods'";
+            $sql_result = mysqli_query($con,$sql);
+            while($row = mysqli_fetch_assoc($sql_result)){
+                $sender4 = $row['Total'];
+            }
+        ?>
+
+         <!-- Get total send in Baby Snacks -->
+         <?php
+            $sql = "SELECT COUNT(*) AS Total FROM sender_info WHERE snacks='S-snacks'";
+            $sql_result = mysqli_query($con,$sql);
+            while($row = mysqli_fetch_assoc($sql_result)){
+                $sender5 = $row['Total'];
+            }
+        ?>
+         <!-- Get total send in House Hold Goods -->
+         <?php
+            $sql = "SELECT COUNT(*) AS Total FROM sender_info WHERE householdgoods='S-household'";
+            $sql_result = mysqli_query($con,$sql);
+            while($row = mysqli_fetch_assoc($sql_result)){
+                $sender6 = $row['Total'];
+            }
+        ?>
+
+         <!-- Get total send in Hygiene -->
+         <?php
+            $sql = "SELECT COUNT(*) AS Total FROM sender_info WHERE hygiene='S-hygiene'";
+            $sql_result = mysqli_query($con,$sql);
+            while($row = mysqli_fetch_assoc($sql_result)){
+                $sender7 = $row['Total'];
+            }
+        ?>
+
+
 
 
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
@@ -197,17 +276,45 @@
           ['House Hold Goods', <?php echo $output6;?>],
           ['Hygiene', <?php echo $output7;?>],
         ]);
+        var data1 = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['Can',     <?php echo $sender;?>],
+          ['Noodles', <?php echo $sender1;?>],
+          ['Drinks', <?php echo $sender2;?>],
+          ['Rice', <?php echo $sender3;?>],
+          ['Babyfood', <?php echo $sender4;?>],
+          ['Snacks', <?php echo $sender5;?>],
+          ['House Hold Goods', <?php echo $sender6;?>],
+          ['Hygiene', <?php echo $sender7;?>],
+        ]);
 
         var options = {
-          title: 'Most Request Item in Community Pantry'
+          title: 'Most Request Item in Community Pantry',
+          legend: 'center',
+        };
+        var options1 = {
+          title: 'Most Send Item in Community Pantry ',
+          pieHole: 0.4,
+
         };
 
         var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+        var chart1 = new google.visualization.PieChart(document.getElementById('donutchart'));
 
         chart.draw(data, options);
+        chart1.draw(data1, options1);
+       
       }
     </script>
-  <div id="piechart" style="width: 900px; height: 500px; position:relative; left:250px;"></div>
+    <style>
+        body{
+            overflow-x: hidden;
+        }
+    </style>
+
+
+  <div id="piechart" style="width: 900px; height: 500px; position:relative; left:80vh; z-index:2;"></div>
+  <div id="donutchart" style="width: 900px; height: 500px; bottom:500px; right:80px;  position:relative; z-index:1;"></div>
 
 <?php
   include('includes/footer.php');
